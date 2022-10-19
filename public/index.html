@@ -25,38 +25,40 @@
   </head>
   <body class="font-work overflow-x-hidden">
     <!-- Home -->
-    <div
-      class="w-full min-h-screen bg-no-repeat bg-cover"
+    <section
+      class="min-h-screen w-screen bg-no-repeat bg-cover"
       style="background-image: url('./img/bg-circles.svg')"
     >
       <!-- Navbar -->
-      <header class="">
-        <nav class="relative flex justify-between items-center p-6">
-          <h1 class="text-coral text-4xl font-bold font-ubuntu uppercase">
-            Petcare
-          </h1>
-          <ul class="hidden text-xl lg:flex space-x-8 text-cinza">
-            <li><a href="#home" class="hover:text-coral">Home</a></li>
-            <li><a href="#services" class="hover:text-coral">Services</a></li>
-            <li><a href="#" class="hover:text-coral">About</a></li>
-            <li><a href="#" class="hover:text-coral">Prices</a></li>
-          </ul>
-          <button
-            class="bg-strongCoral text-xl text-white font-medium p-2 transition hover:scale-105"
-          >
-            <a href="#">Contact us</a>
-          </button>
-        </nav>
-      </header>
-      <section class="w-full top-1/4 absolute p-4">
-        <div class="flex justify-around items-center">
+      <nav class="relative flex justify-between items-center p-6 z-10">
+        <h1 class="text-coral text-4xl font-bold font-ubuntu uppercase">
+          Petcare
+        </h1>
+        <ul class="hidden text-xl lg:flex space-x-8 text-cinza">
+          <li><a href="#home" class="hover:text-coral">Home</a></li>
+          <li><a href="#services" class="hover:text-coral">Services</a></li>
+          <li><a href="#" class="hover:text-coral">About</a></li>
+          <li><a href="#" class="hover:text-coral">Prices</a></li>
+        </ul>
+        <button
+          class="bg-strongCoral text-xl text-white font-medium p-2 transition hover:scale-105"
+        >
+          <a href="#">Contact us</a>
+        </button>
+      </nav>
+      <!-- Hero -->
+      <div
+        class="absolute top-0 min-h-screen w-screen px-6 flex flex-col justify-center"
+      >
+        <!-- Flex Hero -->
+        <div class="flex items-center justify-around">
           <div>
             <h1 class="text-4xl lg:text-5xl xl:text-6xl">
               Take Care and Love <br />
               Your Pet With Our <br />
               Best Service Live Care
             </h1>
-            <p class="text-md">
+            <p class="text-md font-light my-4">
               Come on, bring all your pets for us to check and make their
               Live<br />
               healthier with yout grooming service cant't wait to see it your
@@ -75,7 +77,8 @@
             <img class="max-w-md xl:max-w-max" src="./img/dog.png" alt="" />
           </div>
         </div>
-        <div class="flex justify-center cursor-pointer">
+        <!-- Flex Hero -->
+        <div class="self-center cursor-pointer">
           <a href="#services"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +86,7 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-6 h-6 animate-bounce"
+              class="w-10 h-10 animate-bounce"
             >
               <path
                 stroke-linecap="round"
@@ -93,19 +96,18 @@
             </svg>
           </a>
         </div>
-      </section>
-    </div>
-    <section id="" class="h-screen w-full bg-red-600">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam
-      officiis nemo quo assumenda at accusantium quae possimus, non consectetur
-      officia, a, dolores sed! Quos perspiciatis laboriosam iure veritatis
-      dolor!
+      </div>
+      <!-- Hero -->
     </section>
-    <section id="services" class="w-full bg-red-600">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam
-      officiis nemo quo assumenda at accusantium quae possimus, non consectetur
-      officia, a, dolores sed! Quos perspiciatis laboriosam iure veritatis
-      dolor!
+
+    <section id="#services" class="min-h-screen p-4">
+      <div class="flex flex-col">
+        <h1 class="text-5xl font-bold">The Services We Have</h1>
+        <p class="text-base font-light">
+          Here are several services that you can choose for your pet's needs so
+          that your pet is healthy and happy
+        </p>
+      </div>
     </section>
   </body>
 </html>
