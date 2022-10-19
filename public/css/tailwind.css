@@ -766,12 +766,21 @@ video {
   background-color: rgb(252 165 165 / var(--tw-bg-opacity));
 }
 
+.bg-isabelline {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 247 242 / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
 }
 
 .bg-contain {
   background-size: contain;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
 }
 
 .bg-no-repeat {
